@@ -24,7 +24,4 @@ A fun and interactive browser-based bubble game built using **HTML**, **CSS**, a
 4. The game runs on a timer — try to score as much as you can before time’s up!
 
 ## 🖥️ How to Run the Project
-
-1. **Download** or **clone** the repository:
-   ```bash
-   git clone https://github.com/your-username/bubble-game.git
+  https://adityakumar2511.github.io/Buuble-Game
