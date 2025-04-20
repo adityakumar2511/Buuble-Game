@@ -1,0 +1,118 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  background-color: brown;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box{
+  border:4px solid black;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: rgba(127, 255, 212, 0.808);
+  overflow: hidden;
+}
+#topBox{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(14, 58, 40);                                              
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.elem{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+.elem h3{
+  font-size: 30px;
+}
+
+.points{
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  background-color: rgb(255, 243, 243);
+  border-radius: 4px;
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 42px;
+}
+
+#btmBox{
+  width:100%;
+  height: calc(100% - 80px);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+
+}
+.bubble{
+  width: 35px;
+  height: 35px;
+  background-color: rgb(22,22,130);
+  color:#fff;
+  border-radius: 50%;
+  padding: 6px;
+  border:4px solid black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin: 3px;
+}
+.bubble:hover{
+  width: 37px;
+  height: 37px;
+  background-color: rgb(85, 85, 174);
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+
+.gameOver{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  opacity: 0.8;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.gameOver h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.gameOver #run{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto 5px;
+  margin-left: 20px;
+}
